@@ -90,13 +90,17 @@ body {
 nav {
 	width: 85%;
 	margin: 0% 7.5%;
-	padding-bottom: 75px;
+	height: 75px;
 	position: fixed;
 	top: 0;
 	background: #ff3366;
 	z-index: 9998;
 }
-
+@media (max-width: 640px){
+	nav {
+		height: 50px;
+	}
+}
 
 /*----- Body -----*/
 #body-content {
@@ -128,7 +132,7 @@ nav {
 }
 #main-img {
 	width: 80%;
-	margin: 5% 10%;
+	margin: 10% 10%;
 	height: auto;
 	border-radius: 50%;
 }
