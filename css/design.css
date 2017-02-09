@@ -193,6 +193,16 @@ h1 {
 	font-weight: bolder;
 	letter-spacing: 15px;
 }
+@media (max-width: 440px){
+	h1 {
+		letter-spacing: 0;
+	}
+}
+@media (max-width: 991px){
+	h1 {
+		letter-spacing: 5px;
+	}
+}
 hr {
 	max-width: 400px;
 	box-sizing: border-box;
