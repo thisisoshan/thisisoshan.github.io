@@ -288,3 +288,16 @@ img {
 #lightgallery a:hover .info {
 	transform: translateY(0px);
 }
+#footer {
+	text-align: center;
+	color: #fff;
+}
+#footer > div {
+	padding-bottom: 25px;
+}
+#footer > div > b {
+	color: #444;
+}
+#footer > div > s {
+	color: #f00;
+}
