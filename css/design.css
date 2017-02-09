@@ -291,6 +291,7 @@ img {
 #footer {
 	text-align: center;
 	color: #fff;
+	font-size: 1.15rem;
 }
 #footer > div {
 	padding-bottom: 25px;
