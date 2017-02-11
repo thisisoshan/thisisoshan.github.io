@@ -107,7 +107,7 @@ nav {
 	opacity: 0.0;
 	width: 80%;
 	height: auto;
-	margin: 5% 10% 7.5% 10%;
+	margin: 5% 10% 5% 10%;
 	background: #a699cd;
 	transition: opacity 0.5s ease;
 }
