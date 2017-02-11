@@ -89,7 +89,7 @@
 
 		<!-- Intro -->
 		<div id="intro" class="scroll-section container-fluid" style="height: 702px;">
-			<div id="center" class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0">
+			<div id="center" class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<h1 id="quote"><q>Imagination is more important than knowledge.</q></h1> <br>
 				<h5>-Albert Einstein</h5>
 				
@@ -98,7 +98,7 @@
 		
 		<!-- About Section -->
 		<div id="about" class="scroll-section" style="height: 702px;">
-			<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0">
+			<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<h1>Who am I?</h1><hr>
 				<p id="about-text">
 					I am from Nepal.<br>I am a high-school student.<br>I love reading books + coding + creating .<br>I spend most (almost all) of my time playing with codes.<br>While I am not coding, I listen music, play soccer, meet friends and travel.<br><em>The Fault in our Stars</em> is my favorite novel and <em>Taylor</em> Swift is my favorite pop artist. <br>Besides, I tend to participate in voluntary programs and social workshops. <br>Photography is my kinda hobby, but I am not much of a hobbyist.
@@ -110,7 +110,7 @@
 
 		<!-- Project Section -->
 		<div id="projects" class="scroll-section" style="height: 702px;">
-			<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0">
+			<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<h1>Projects</h1><hr>
 				<ul>
 					<li><a target="_blank" href="https://warymoose.github.io/Hex-Color/">Hex-Check</a>: An web app that sets background color in real-time.</li>
@@ -129,7 +129,7 @@
 
 		<!-- Project Section -->
 		<div id="gallery" class="scroll-section" style="height: 1200px">
-			<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0">
+			<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<h1>Gallery</h1><hr>
 				<div id="lightgallery" class="row">
 				  <a href="assets/gallary/1.JPG" class="col-md-4 col-sm-12 col-xs-12">
@@ -222,7 +222,7 @@
 		</div>
 		<!-- Footer -->
 		<div id="footer">
-			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0">
+			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				Made with <s>love</s> <b>Lenovo B50-80 EW</b> by <b>Oshan Shrestha</b> in <b>2017</b>. All rights reserved.
 			</div>
 		</div>
@@ -246,6 +246,13 @@
 	    	$("body").css("overflow-y", "scroll");
 	    	$(".loading-div").css("opacity", "0.0");
 	    	$("#body-content").css("opacity", "1.0");
+
+	    	if (window.screen.availWidth <= 991) {
+	    		$.scrollify.disable();
+	    	}
+	    	if (window.screen.availWidth > 991) {
+	    		$.scrollify.enable();
+	    	}
 	    };
 	    $(function() {
 			$.scrollify({

@@ -120,14 +120,17 @@ nav {
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	box-shadow: 7px 5px 8.5px rgba(102,51,255, .5), 0px -2px 8.5px rgba(102,51,255, .5);
+	height: auto;
 }
 @media (max-width: 991px){
 	#heading{
+		padding-top: 50px;
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 		position: static;
 		box-shadow: none;
 		margin-left: 0px;
+		height: auto;
 	}
 }
 #main-img {
@@ -294,6 +297,7 @@ img {
 #footer {
 	text-align: center;
 	color: #fff;
+	position: relative;
 }
 #footer > div {
 	padding-bottom: 25px;
