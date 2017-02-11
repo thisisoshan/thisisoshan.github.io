@@ -155,7 +155,7 @@ h6:hover, i:hover {
 
 /* About Section Customization */
 #about {
-	padding-top: 35px;
+	padding-top: 120px;
 }
 #about, #about > * {
 	text-align: center;
@@ -188,7 +188,7 @@ li a:hover {
 }
 /* Gallary Ssection Customization */
 #gallery {
-	padding-top: 200px;
+	padding-top: 130px;
 	padding-bottom: 50px;
 	text-align: center;
 }
@@ -287,6 +287,9 @@ img {
 }
 #lightgallery a:hover .info {
 	transform: translateY(0px);
+}
+#about-text {
+	padding: 0px 25px 100px 25px;
 }
 #footer {
 	text-align: center;
