@@ -124,7 +124,7 @@ nav {
 }
 @media (max-width: 991px){
 	#heading{
-		padding-top: 50px;
+		padding-top: 20px;
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 		position: static;
@@ -249,10 +249,12 @@ h5 {
 	margin-bottom: 125px;
 }
 #lightgallery a.col-md-4 img {
-	transition: .25s ease;
+	transition: .5s ease;
+	margin: 0px;
 }
 #lightgallery:hover a.col-md-4 img {
-	opacity: .35;
+	opacity: .65;
+	border: none;
 }
 #lightgallery> a {
 	overflow: hidden;
@@ -265,7 +267,7 @@ a.col-md-4 {
 #lightgallery a.col-md-4:hover img {
 	background: #111;
 	opacity: 1.0;
-	transform: scale3d(1.075, 1.075, 1.075);
+	transform: scale3d(1.075, 1.075, 5.75);
 	transition: .25s ease;
 }
 img {
@@ -296,15 +298,14 @@ img {
 }
 #footer {
 	text-align: center;
-	color: #fff;
+	color: #ccc;
 	position: relative;
 }
 #footer > div {
-	padding-bottom: 25px;
-}
-#footer > div > b {
-	color: #444;
-}
-#footer > div > s {
-	color: #f00;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	background: #6633ff;
+	border-top: 5px solid #ccc;
+	border-top-right-radius: 95%;
+	border-top-left-radius: 95%;
 }
